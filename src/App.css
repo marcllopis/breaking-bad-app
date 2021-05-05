@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 15px;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.char-wrapper {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+}
+
+.char-wrapper img {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.survs-button {
+	box-shadow: 0px 4px 13px 0px #3dc21b;
+	background-color:#487a55;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:11px 47px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-bottom: 20px;
+}
+.survs-button:hover {
+	background-color:#5cbf2a;
+}
+.survs-button:active {
+	position:relative;
+	top:1px;
+}
